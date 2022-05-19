@@ -1,0 +1,26 @@
+{% extends 'base.html' %}       
+{% block content %}
+<body>
+
+    <div class="content">
+        
+        <h1>Class Tables</h1>  
+        
+        <br><br>
+
+        <p>
+            <img src="{{url_for('static', filename = 'images/misc/kotor_scoundrel.png')}}"><br><br>
+            - Scoundrel<br><br>
+            - Scout<br><br>
+            <img src="{{url_for('static', filename = 'images/misc/kotor_soldier')}}.png"><br><br>
+            - Soldier<br><br>
+            - Tech Specialist<br><br>
+            - Force Sensitive*<br><br>
+        </p>
+    </div>
+
+    {% endblock %}
+
+
+</body>
+</html>

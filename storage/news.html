@@ -1,0 +1,938 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Kayaba (Hazey#5995)">
+<title>SWG Legends | Home</title>
+<link rel="icon" type="image/png" href="https://swglegends.com/assets/images/favicon.png">
+
+<!-- Open Graph -->
+<!-- https://www.reddit.com/r/discordapp/comments/82p8i6/a_basic_tutorial_on_how_to_get_the_most_out_of/ -->
+<meta property="og:title" content="SWG Legends | Home" />
+<meta property="og:site_name" content="SWG Legends" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://swglegends.com/" />
+<meta property="og:image" content="https://swglegends.com/assets/images/New_LOGO_2022.png" />
+<meta property="og:image:width" content=250 />
+<meta property="og:image:height" content=250 />
+<meta name="theme-color" content="#33363b">
+
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700%7cMarcellus+SC" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://swglegends.com/assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://swglegends.com/assets/fontawesome/css/style.css">
+
+<!-- IonIcons -->
+<link rel="stylesheet" href="https://swglegends.com/assets/vendor/ionicons/css/ionicons.min.css">
+
+<!-- Revolution Slider -->
+<link rel="stylesheet" href="https://swglegends.com/assets/vendor/revolution/css/settings.css">
+<link rel="stylesheet" href="https://swglegends.com/assets/vendor/revolution/css/layers.css">
+<link rel="stylesheet" href="https://swglegends.com/assets/vendor/revolution/css/navigation.css">
+
+<!-- Flickity -->
+<link rel="stylesheet" href="https://swglegends.com/assets/vendor/flickity/dist/flickity.min.css">
+
+<!-- Photoswipe -->
+<link rel="stylesheet" href="https://swglegends.com/assets/vendor/photoswipe/dist/photoswipe.css">
+<link rel="stylesheet" href="https://swglegends.com/assets/vendor/photoswipe/dist/default-skin/default-skin.css">
+
+<!-- DateTimePicker -->
+<link rel="stylesheet" href="https://swglegends.com/assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+
+<!-- Summernote -->
+<link rel="stylesheet" href="https://swglegends.com/assets/vendor/summernote/dist/summernote-bs4.css">
+
+<!-- SWG Legends -->
+<link rel="stylesheet" href="https://swglegends.com/assets/css/index.css">
+
+<!-- jQuery -->
+<script src="https://swglegends.com/assets/vendor/jquery/dist/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://swglegends.com/assets/css/mCustomScrollbar.css"></head>
+
+<body>
+    <!-- Legends Pre-Loader -->
+    <div class="swg-preloader">
+    <div class="swg-preloader-bg" style="background-color: #000;">
+    </div>
+    <div class="swg-preloader-content">
+        <div>
+            <img class="swg-img" src="https://swglegends.com/assets/images/New_LOGO_2022.png" alt="SWG | Legends - The Leading StarWars Galaxies NGE Live Emulation"
+                width="125">
+            <div class="swg-preloader-animation"></div>
+        </div>
+    </div>
+    <div class="swg-preloader-skip">Skip</div>
+</div>
+    <!-- Audio -->
+    <div class="swg-page-background-audio d-none" data-audio="https://swglegends.com/assets/mp3/to-start-a-journey.mp3" data-audio-volume="50"
+    data-audio-autoplay="false" data-audio-loop="true" data-audio-pause-on-page-leave="true">
+</div>
+    <div class="swg-page-background op-5" data-video-pause-on-page-leave="false" data-video-loop="true" data-video="mp4:assets/video/timelapse.mp4"></div>
+
+    <!-- Header -->
+    <header class="swg-header swg-header-opaque">
+        <div class="swg-contacts-top">
+            <div class="container">
+                <div class="swg-contacts-left">
+                    <div class="swg-navbar">
+                        <ul class="swg-nav">
+                            <li class="swg-drop-item">
+                                <a class="link-effect-2" href="#">English (Global)</a>
+                                <ul class="dropdown">
+                                    <li><a class="link-effect-2" href="#">English (Global)</a></li>
+                                </ul>
+                            </li>
+                            <li class="swg-drop-item">
+                                <a class="link-effect-2" href="#">Rules & Legal</a>
+                                <ul class="dropdown">
+                                    <li><a class="link-effect-2" href="https://swglegends.com/account-policies.php">Account Policies</a></li>
+                                    <li><a class="link-effect-2" href="https://swglegends.com/discord-policies.php">Discord Policies</a></li>
+                                    <li><a class="link-effect-2" href="https://swglegends.com/code-of-conduct.php">Code Of Conduct</a></li>
+                                    <li><a class="link-effect-2" href="https://swglegends.com/infraction-guidelines.php">Infraction Guidelines</a></li>
+                                    <li><a class="link-effect-2" href="https://swglegends.com/legal-notices.php">Legal Notices</a></li>
+                                    <li><a class="link-effect-2" href="https://swglegends.com/privacy-policy.php">Privacy Policy</a></li>
+                                    <li><a class="link-effect-2" href="https://swglegends.com/terms-of-service.php">Terms Of Service</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="swg-contacts-right">
+                    <div class="swg-navbar">
+                        <span id="swg-quote">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="swg-navbar swg-navbar-top swg-navbar-sticky swg-navbar-transparent">
+            <div class="container">
+                <a href="https://swglegends.com/index.php" class="swg-nav-logo">
+                    <img src="https://swglegends.com/assets/images/New_LOGO_2022.png" alt="" width="125">
+                </a>
+                <div class="swg-nav-table">
+                    <ul class="swg-nav swg-nav-right d-none d-lg-block" data-nav-mobile="#swg-nav-mobile">
+                        <li class="active">
+                            <a class="link-effect-2" href="https://swglegends.com/index.php">Home</a>
+                        </li>
+                        <li class="">
+                            <a class="link-effect-2" href="https://swglegends.com/news.php">News</a>
+                        </li>
+                        <li class="">
+                            <a class="link-effect-2" href="https://swglegends.com/forums/forum.php">Forums</a>
+                        </li>
+                        <li class="swg-drop-item">
+                            <a class="link-effect-2" href="#">Legends</a>
+                            <ul class="dropdown">
+                                <li class="">
+                                    <a class="link-effect-2" href="https://swglegends.com/staff-departments.php">Staff Roster</a>
+                                </li>
+                                <li class="">
+                                    <a class="link-effect-2" href="https://swglegends.com/vetrewards.php">Veteran Rewards</a>
+                                </li>
+                                <li class="">
+                                    <a class="link-effect-2" href="https://swglegends.com/expertise-calculator.php">Expertise Calculator</a>
+                                </li>
+                                <li class="">
+                                    <a class="link-effect-2" href="https://swglegends.com/officer_salute.php">Officer Salute</a>
+                                </li>
+                                <li class="">
+                                    <a class="link-effect-2" href="https://swglegends.com/cities.php">Omega Cities</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="swg-drop-item">
+                            <a class="link-effect-2" href="#">Community</a>
+                            <ul class="dropdown">
+                                <li class="">
+                                    <a class="link-effect-2" href="https://swglegends.com/wiki/index.php">Legends Wiki</a>
+                                </li>
+                                <li class="">
+                                    <a class="link-effect-2" href="https://swglegends.com/chat.php">Discord</a>
+                                </li>
+                                <li class="">
+                                    <a class="link-effect-2" href="https://swglegends.com/support">Report Bugs</a>
+                                </li>
+                                <li class="">
+                                    <a class="link-effect-2" href="https://swg.elour.io/cityplanner">City Planner Tool</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--
+                        <li class="swg-drop-item">
+                            <a class="link-effect-2" href="#">About</a>
+                            <ul class="dropdown">
+                                <li class="">
+                                    <a class="link-effect-2" href="professions.php">Professions</a>
+                                </li>
+                            </ul>
+                        </li>
+                        -->
+                        <li class="">
+                            <a class="link-effect-2" href="https://swglegends.com/support">Support</a>
+                        </li>
+                        <li class="swg-nav-play-button">
+                            <a class="link-effect-2" href="https://swglegends.com/getting-started.php">Play Now <i style="margin-left: 10px;" class="far fa-play"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="swg-nav swg-nav-right swg-nav-icons">
+
+                        <li class="single-icon d-lg-none">
+                            <a href="#" class="no-link-effect" data-nav-toggle="#swg-nav-mobile">
+                                <span class="swg-icon-burger">
+                                    <span class="swg-t-1"></span>
+                                    <span class="swg-t-2"></span>
+                                    <span class="swg-t-3"></span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="single-icon">
+                            <a href="#" class="swg-search-toggle no-link-effect">
+                                <span class="swg-icon-search"></span>
+                            </a>
+                        </li>
+                        <!--
+                        <li class="single-icon">
+                            <a href="#" class="swg-sign-toggle no-link-effect" id="swg-sign-toggler">
+                                <span class="swg-icon-toggle">
+                                    <span class="swg-icon-toggle-front">
+                                        <span class="fa fa-sign-in"></span>
+                                    </span>
+                                    <span class="swg-icon-toggle-back">
+                                        <span class="swg-icon-close"></span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ------END------ -->
+
+    <!-- Mobile Header -->
+    <div id="swg-nav-mobile" class="swg-navbar swg-navbar-side swg-navbar-left-side swg-navbar-overlay-content d-lg-none">
+    <div class="nano">
+        <div class="nano-content">
+            <a href="index.html" class="swg-nav-logo">
+                <img src="https://swglegends.com/assets/images/swg-logo.png" alt="" width="200">
+            </a>
+            <div class="swg-navbar-mobile-content">
+                <ul class="swg-nav">
+                    <!-- Here will be inserted menu from [data-mobile-menu="#swg-nav-mobile"] -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Server Status -->
+    <div class="swg-server-status-container">
+    <ul>
+        <div class="row">
+            <div class="col s3">
+                <li>
+                    <font size="3" face="Marcellus SC" color="white">Omega Server:</font>
+                </li>
+            </div>
+            <div class="col s3">
+                <li>
+                    <font size="3" face="Marcellus SC" color="white">Status: </font>
+                    <span id="serverStatus">---</span>
+                </li>
+            </div>
+            <div class="col s3">
+                <li>
+                    <font size="3" face="Marcellus SC" color="white">Population: </font>
+                    <span id="clusterPopulation">---</span>
+                </li>
+            </div>
+            <div class="col s3">
+                <li>
+                    <font size="3" face="Marcellus SC" color="white">Unique: </font>
+                    <span id="uniquePlayers">---</span>
+                </li>
+            </div>
+            <div class="col s12">
+                <div class="status-update-text">
+                    <div id="omega-update-time" class="omega-update-time">
+                        <font size="2" face="Marcellus SC" color="white">Last Updated: <span id="updateTime">---</span> seconds ago</font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ul>
+</div>
+<script src="https://swglegends.com/assets/js/server-stats.js"></script>
+    <div id="cookie-overlay" class="gdpr gdpr-overlay" style="">
+    <div class="gdpr gdpr-privacy-preferences">
+        <div class="gdpr-wrapper" style="display: block;">
+            <form method="post" class="gdpr-privacy-preferences-frm">
+                <input type="hidden" name="action" value="gdpr_update_privacy_preferences">
+                <header>
+                    <div class="gdpr-box-title">
+                        <h3>SWGLegends | Privacy Preference Center</h3>
+                        <span class="gdpr-close"></span>
+                    </div>
+                </header>
+                <div class="gdpr-mobile-menu">
+                    <button type="button">Options</button>
+                </div>
+                <div class="gdpr-content">
+                    <div class="gdpr-tabs">
+                        <ul class="">
+                            <li><button type="button" class="gdpr-tab-button gdpr-active" data-target="gdpr-consent-management">Consent Management</button></li>
+                        </ul>
+                        <ul class="gdpr-policies">
+                            <li><a href="privacy-policy.php" target="_blank">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="gdpr-tab-content">
+                        <div class="gdpr-consent-management gdpr-active">
+                            <header>
+                                <h4>Consent Management</h4>
+                            </header>
+                            <div class="gdpr-info">
+                                <p>When you visit any website, it may store or retrieve information on your browser,
+                                    mostly in the form of cookies. This information might be about you, your
+                                    preferences or your device and is mostly used to make the site work as you expect
+                                    it to. The information does not usually directly identify you, but it can give you
+                                    a more personalized web experience.<br>
+                                    <br>
+                                    Because we respect your right to privacy, you can choose not to allow some types of
+                                    cookies. Click on the different category headings to find out more and change our
+                                    default settings. However, blocking some types of cookies may impact your
+                                    experience of the site and the services we are able to offer.</p>
+                                <div class="gdpr-cookies-used">
+                                    <div class="gdpr-cookie-title">
+                                        <p>Privacy Policy</p>
+                                        <span class="gdpr-always-active">Required</span>
+                                        <input type="hidden" name="user_consents[]" value="privacy-policy" checked="" style="display:none;">
+                                    </div>
+                                    <div class="gdpr-cookies">
+                                        <span>EndUser Read and agrees to our privacy policy.</span>
+                                    </div>
+                                    <div class="gdpr-cookie-title">
+                                        <p>Age Verification</p>
+                                        <span class="gdpr-always-active">Required</span>
+                                        <input type="hidden" name="user_consents[]" value="Age-Verfication" checked="" style="display:none;">
+                                    </div>
+                                    <div class="gdpr-cookies">
+                                        <span>End User enters their age to verify access</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" name="all_cookies" value="[]">
+                </div>
+                <footer>
+                    <input type="submit" value="Save & Reload">
+                </footer>
+            </form>
+        </div>
+    </div>
+</div>
+    <div class="swg-main">
+
+        <!-- Index Slider -->
+        <div class="swg-gap-6"></div>
+<div class="swg-gap-6"></div>
+<div style="text-align: center;" class="swg-header-table">
+    <div class="swg-header-table-cell">
+        <h1 class="swg-title">It's time to choose your path.
+            <span class="d-block"></span>
+            <span class="swg-typed bg-white text-dark-1 pl-8 pr-8 pt-5 pb-5 m-5 d-inline-block">
+                <span>Be who you want to be</span>
+                <span>Explore the Galaxy</span>
+                <span>Fight for a cause</span>
+                <span>Become a galaxy renown trader</span>
+                <span>Explore the path to Jedi</span>
+                <span>Engineer unique pets</span>
+                <span>Explore Legendary Locations</span>
+                <span>Forge new friendships</span>
+                <span>Meet iconic characters</span>
+                <span>Create your own quests</span>
+                <span>Run space missions</span>
+                <span>Join a town</span>
+                <span>Decorate until your hearts content</span>
+                <span>Collect iconic items from your favorite universe</span>
+        </h1>
+
+        <div class="swg-gap-2"></div>
+        <button style="color: #fff; padding: 10px 30px 10px 30px; text-decoration: none;" class="swg-nav-play-button">
+            <a style="color: #fff; text-decoration: none;" href="getting-started.php">Let's get started!<i
+                    style="margin-left: 10px; color: #fff;" class="far fa-play"></i></a>
+        </button>
+        <div class="swg-gap-4"></div>
+    </div>
+</div>
+
+<div class="swg-gap-6"></div>
+<div class="swg-gap-6"></div>
+
+<script type="text/javascript">
+    var tpj = jQuery;
+    var revapi50;
+    tpj(document).ready(function () {
+        if (tpj("#rev_slider_50_1").revolution == undefined) {
+            revslider_showDoubleJqueryError("#rev_slider_50_1");
+        } else {
+            revapi50 = tpj("#rev_slider_50_1").show().revolution({
+                sliderType: "carousel",
+                jsFileLocation: "assets/vendor/revolution/js/",
+                sliderLayout: "auto",
+                dottedOverlay: "none",
+                delay: 5000,
+                navigation: {
+                    keyboardNavigation: "off",
+                    keyboard_direction: "horizontal",
+                    onHoverStop: "off",
+                },
+                carousel: {
+                    maxRotation: 8,
+                    vary_rotation: "off",
+                    minScale: 20,
+                    vary_scale: "off",
+                    horizontal_align: "center",
+                    vertical_align: "center",
+                    fadeout: "off",
+                    vary_fade: "off",
+                    maxVisibleItems: 3,
+                    infinity: "on",
+                    space: -90,
+                    stretch: "off"
+                },
+                responsiveLevels: [1240, 1024, 778, 480],
+                gridwidth: [800, 600, 500, 400],
+                gridheight: [416, 312, 260, 208],
+                lazyType: "none",
+                shadow: 0,
+                spinner: "off",
+                stopLoop: "off",
+                stopAfterLoops: 0,
+                stopAtSlide: 0,
+                shuffle: "off",
+                autoHeight: "off",
+                fullScreenAlignForce: "off",
+                fullScreenOffsetContainer: "",
+                fullScreenOffset: "",
+                disableProgressBar: "on",
+                hideThumbsOnMobile: "off",
+                hideSliderAtLimit: 0,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                debugMode: false,
+                fallbacks: {
+                    simplifyAll: "off",
+                    nextSlideOnWindowFocus: "off",
+                    disableFocusListener: false,
+                }
+            });
+        }
+    });
+</script>
+        <!-- START: News List -->
+        <div class="swg-box bg-dark-1">
+            <div class="container">
+                <div class="swg-gap-4"></div>
+                <h1 class="swg-title h1 text-center">Community News & Announcements</h1>
+                <div class="swg-gap-3"></div>
+                <div id="swg-news-list-home" class="swg-blog-grid-2">
+                </div>
+            </div>
+        </div>
+        <!-- END: News List -->
+
+        <div class="swg-box text-center">
+            <div class="swg-gap-4"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 order-md-2 text-md-right">
+                        <h2 class="swg-title">Player Housing</h2>
+                        <h3 class="swg-sub-title mb-0 text-main-2">Experience player housing the way it was meant to be</h3>
+                    </div>
+                    <div class="col-md-4 text-md-left">
+                        <div class="swg-gap-2 d-md-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swg-box text-center">
+            <div class="swg-gap-4"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 order-md-2 text-md-left">
+                        <h2 class="swg-title">Unique Mounts & Vehicles</h2>
+                        <h3 class="swg-sub-title mb-0 text-main-2">Collect all 40 mounts & vehicles, be the envy of the galaxy</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swg-box text-center">
+            <div class="swg-gap-4"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 order-md-2 text-md-right">
+                        <h2 class="swg-title">Jump To Lightspeed</h2>
+                        <h3 class="swg-sub-title mb-0 text-main-2">Space your thing? Launch into space with JTL!</h3>
+                    </div>
+                    <div class="col-md-4 text-md-left">
+                        <div class="swg-gap-2 d-md-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swg-box text-center">
+            <div class="swg-gap-4"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 order-md-2 text-md-left">
+                        <h2 class="swg-title">Dedicated Staff</h2>
+                        <h3 class="swg-sub-title mb-0 text-main-2">A dedicated staff like no other. We're here to make sure you get the best SWG experience around.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swg-box text-center">
+            <div class="swg-gap-4"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 order-md-2 text-md-right">
+                        <h2 class="swg-title">New Content</h2>
+                        <h3 class="swg-sub-title mb-0 text-main-2">Our staff works hard on providing new content for Veterans and New Players alike.</h3>
+                    </div>
+                    <div class="col-md-4 text-md-left">
+                        <div class="swg-gap-2 d-md-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swg-gap-6"></div>
+
+        <div class="swg-box bg-dark-1">
+    <div class="container text-center">
+        <div class="swg-gap-2"></div>
+        <div class="swg-gap-2"></div>
+        <h2 class="swg-title h2">About Starwars Galaxies Legends</h2>
+        <div class="swg-gap-3"></div>
+
+        <p class="lead">Join with Star Wars fans across the world and jump into exciting adventures 24 hours a day,
+            seven days a week! You and your friends will travel to legendary Star Wars locations with famous faces from
+            the films. Along the way, you can meet up with others on missions that take you across the galaxy, fighting
+            against many familiar foes from the Star Wars universe. If combat isn't your thing, you can choose to
+            support those fighters through crafting necessary items or providing entertainment that inspires combatants
+            to fight harder.</p>
+
+        <p class="lead">You've enjoyed watching the Star Wars universe for years. Now's your chance to live in it! In
+            Star Wars
+            Galaxies you can fight alongside Han Solo and Chewbacca, smuggle goods for Jabba the Hutt, defend Imperial
+            stations from the ravages of the Rebels, create your own player city, put yourself in the pilot seat of
+            your favorite Star Wars ship, and more.</p>
+
+        <p class="lead">Are you partial to the Empire or the Rebellion? Take part in the Galactic Civil War! The
+            Galactic Civil War rages on throughout space, as well as on the ground below. Rebel commanders fight for
+            control against Imperial garrisons, trying desperately to sway allegiances and control the planet.
+            Hard-fought battles rage on, with ownership of cities, in fact of whole worlds, held in the balance. There
+            is a constant ebb and flow in every war, and worlds change hands from day to day between Imperial and Rebel
+            control.</p>
+        <div class="swg-gap-2"></div>
+    </div>
+</div>
+
+<div class="swg-box text-white text-center">
+    <div class="swg-gap-4"></div>
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-4 col-sm-6">
+                <div class="swg-box-2 swg-box-line">
+
+                    <!-- START: Counter 8 -->
+                    <div class="swg-counter-3">
+                        <div class="swg-count">9</div>
+                        <h3 class="swg-counter-title h5">Different Classes</h3>
+                    </div>
+                    <!-- END: Counter 8 -->
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="swg-box-2 swg-box-line">
+
+                    <!-- START: Counter 9 -->
+                    <div class="swg-counter-3">
+                        <div class="swg-count">12</div>
+                        <h3 class="swg-counter-title h5">Unique Planets</h3>
+                    </div>
+                    <!-- END: Counter 9 -->
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="swg-box-2 swg-box-line">
+
+                    <!-- START: Counter 10 -->
+                    <div class="swg-counter-3">
+                        <div class="swg-count">10</div>
+                        <h3 class="swg-counter-title h5">Player Races</h3>
+                    </div>
+                    <!-- END: Counter 10 -->
+
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="swg-box-2 swg-box-line">
+
+                    <!-- START: Counter 11 -->
+                    <div class="swg-counter-3">
+                        <div class="swg-count">459</div>
+                        <h3 class="swg-counter-title h5">Badges to collect</h3>
+                    </div>
+                    <!-- END: Counter 11 -->
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="swg-box-2 swg-box-line">
+
+                    <!-- START: Counter 12 -->
+                    <div class="swg-counter-3">
+                        <div class="swg-count">105</div>
+                        <h3 class="swg-counter-title h5">Unique points of interest</h3>
+                    </div>
+                    <!-- END: Counter 12 -->
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="swg-box-2 swg-box-line">
+
+                    <!-- START: Counter 13 -->
+                    <div class="swg-counter-3">
+                        <div class="swg-count">45</div>
+                        <h3 class="swg-counter-title h5">Pilotable Ships</h3>
+                    </div>
+                    <!-- END: Counter 13 -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swg-gap-4"></div>
+</div>
+        <!-- START: Testimonials -->
+<div class="swg-carousel-2" data-autoplay="12000" data-dots="true">
+    <div class="swg-carousel-inner">
+        <div>
+            <div>
+                <blockquote class="swg-testimonial-2">
+                    <div class="swg-testimonial-body">
+                        <em>"Great staff and great players (with exception to the very few who'll never be happy with anything). They're always looking to keep it fresh, adding missions and items, and even correct Sony's mistakes. Player based Senate that gives voice to the players also a great idea. Best NGE at minimum and maybe best overall in my opinion"</em>
+                    </div>
+                    <div class="swg-testimonial-name avatar1 h4">Brandon Bowles</div>
+                    <div class="swg-testimonial-source">Via Facebook</div>
+                </blockquote>
+            </div>
+        </div>
+        <div>
+            <div>
+                <blockquote class="swg-testimonial-2">
+                    <div class="swg-testimonial-body">
+                        <em>"What an amazing job they are doing. My son asked me to play this with him and I agreed. I was on Restuss hill crying like a baby as it faded away. I am happy to say it is back and on such an awesome level!!!! Definitely recommend to all... you wont be disappointed."</em>
+                    </div>
+                    <div class="swg-testimonial-name avatar2 h4">Katrina Abney Johnson</div>
+                    <div class="swg-testimonial-source">Via Facebook</div>
+                </blockquote>
+            </div>
+        </div>
+        <div>
+            <div>
+                <blockquote class="swg-testimonial-2">
+                    <div class="swg-testimonial-body">
+                        <em>"I want to applaud the staff for a job well done! It is nice to be home again! Thanks for bringing our SWG back to the community! May the force continue to guide in making our game great again!"</em>
+                    </div>
+                    <div class="swg-testimonial-name avatar3 h4">Jackie Hughes</div>
+                    <div class="swg-testimonial-source">Via Facebook</div>
+                </blockquote>
+            </div>
+        </div>
+        <div>
+            <div>
+                <blockquote class="swg-testimonial-2">
+                    <div class="swg-testimonial-body">
+                        <em>"They brought back my favourite game, a game I played throughout my childhood. They have done some amazing work, and tbh - they made it better! I would recommend this to everyone. Again, thanks a lot SWG Legends Staff! Thumbsup"</em>
+                    </div>
+                    <div class="swg-testimonial-name avatar4 h4">Christian Wilcken Petersen</div>
+                    <div class="swg-testimonial-source">Via Facebook</div>
+                </blockquote>
+            </div>
+        </div>
+        <div>
+            <div>
+                <blockquote class="swg-testimonial-2">
+                    <div class="swg-testimonial-body">
+                        <em>"SWG Legends are doing a fine job of bringing back the SWG we all loved - despite naysayers and drama it has continued to thrive over this past year and more. Now new content is being added. If you love the SWG experience you cannot do wrong in coming to SWG Legends as the dedication and loyalty is unsurpassed in this community. Thank you Legends!"</em>
+                    </div>
+                    <div class="swg-testimonial-name avatar5 h4">Revtz Kralizec</div>
+                    <div class="swg-testimonial-source">Via Facebook</div>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="swg-gap-4"></div>
+<div class="swg-gap-6"></div>
+<!-- END: Testimonials -->
+        <footer class="swg-footer swg-footer-parallax swg-footer-parallax-opacity">
+    <img class="swg-footer-top-corner" src="https://swglegends.com/assets/images/footer-corner-alt.png" alt="">
+
+    <div class="container">
+        <div class="swg-gap-2"></div>
+        <div class="swg-footer-logos">
+            <a href="index.php" target="_blank"><img class="swg-img" src="https://swglegends.com/assets/images/New_LOGO_2022.png" alt="" width="75"></a>
+            <a href="https://pegi.info/what-do-the-labels-mean" target="_blank"><img class="swg-img" src="https://swglegends.com/assets/images/PEGI_12.png" alt="" width="60"></a>
+            <a href="http://www.esrb.org/ratings/ratings_guide.aspx" target="_blank"><img class="swg-img" src="https://swglegends.com/assets/images/ratingsymbol_t.png" alt="" width="40"></a>
+            <img class="swg-img" style="margin-right: 25px;" src="https://swglegends.com/assets/images/violence-black-EN.jpg" alt="" width="60">
+        </div>
+        <div class="swg-gap"></div>
+
+        <p style="width: 100%">
+            &copy; SWG: Legends is a non-profit community project dedicated to the development of Star Wars
+            Galaxies™. By accessing www.swglegends.com, you agree to our Terms of Service.
+        </p>
+
+        <div class="swg-footer-links">
+            <a href="https://swglegends.com/terms-of-service.php" class="link-effect">Terms of Service</a>
+            <span>|</span>
+            <a href="https://swglegends.com/privacy-policy.php" class="link-effect">Privacy Policy</a>
+            <span>|</span>
+            <a href="https://swglegends.com/contact-us.php" class="link-effect">Contact Us</a>
+        </div>
+
+        <div class="swg-gap-4"></div>
+    </div>
+</footer>    </div>
+
+    <!-- Social Widget Right Floating -->
+    <div class="swg-share-buttons swg-share-buttons-right d-none d-md-flex">
+    <ul>
+        <li>
+            <span id="swg-twitter-share" class="swg-share-icon" title="Share on Twitter" data-share="twitter">
+                <i class="fab fa-twitter"></i>
+            </span>
+            <span class="swg-share-name">Twitter</span>
+        </li>
+        <li>
+            <span id="swg-facebook-share" class="swg-share-icon" title="Share on Facebook" data-share="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </span>
+            <span class="swg-share-name">Facebook</span>
+        </li>
+        <li>
+            <span id="swg-youtube-share" class="swg-share-icon" title="Share on YouTube" data-share="Youtube">
+                <i class="fab fa-youtube"></i>
+            </span>
+            <span class="swg-share-name">Youtube</span>
+        </li>
+        <li>
+            <span id="swg-discord-share" class="swg-share-icon" title="Join our Discord" data-share="Discord">
+                <i class="fab fa-discord"></i>
+            </span>
+            <span class="swg-share-name">Discord</span>
+        </li>
+    </ul>
+</div>
+    <!-- Floating Widget Bottom Floating -->
+    <div class="swg-side-buttons swg-side-buttons-visible">
+    <ul>
+        <li>
+            <a href="https://discord.gg/ZBXvVDN" target="_blank" class="swg-btn swg-btn-lg">Join our Discord</a>
+        </li>
+        <li>
+            <span class="swg-btn swg-btn-lg swg-btn-icon swg-bg-audio-toggle">
+                <span class="icon">
+                    <span class="ion-android-volume-up swg-bg-audio-pause-icon"></span>
+                    <span class="ion-android-volume-off swg-bg-audio-play-icon"></span>
+                </span>
+            </span>
+        </li>
+        <li class="swg-scroll-top">
+            <span class="swg-btn swg-btn-lg swg-btn-icon">
+                <span class="icon ion-ios-arrow-up"></span>
+            </span>
+        </li>
+    </ul>
+</div>
+    <div class="swg-search">
+        <div class="container">
+            <form action="#">
+                <fieldset class="form-group swg-search-field">
+                    <input type="text" class="form-control" id="searchInput" placeholder="Search..." name="s">
+                    <label for="searchInput"><i class="ion-ios-search"></i></label>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div class="swg-sign-form" id="swg-sign-form">
+        <div class="swg-gap-5"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
+                    <div class="swg-sign-form-container">
+                        <div class="swg-sign-form-toggle h3">
+                            <a href="#" class="swg-sign-form-login-toggle active">Log In</a>
+                            <a href="#" class="swg-sign-form-register-toggle">Register</a>
+                        </div>
+                        <div class="swg-gap-2"></div>
+
+                        <!-- START: Login Form -->
+                        <form class="swg-sign-form-login active" action="#">
+                            <input class="form-control" type="text" placeholder="Username or Email">
+                            <div class="swg-gap-2"></div>
+
+                            <input class="form-control" type="password" placeholder="Password">
+                            <div class="swg-gap-2"></div>
+
+                            <div class="form-check float-left">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">
+                                    Remember Me
+                                </label>
+                            </div>
+                            <button class="swg-btn swg-btn-color-white link-effect-4 float-right">Log In</button>
+
+                            <div class="clearfix"></div>
+                            <div class="swg-gap-1"></div>
+                            <a class="swg-sign-form-lost-toggle float-right" href="#">Lost Password?</a>
+                        </form>
+                        <!-- END: Login Form -->
+
+                        <!-- START: Lost Password Form -->
+                        <form class="swg-sign-form-lost" action="#">
+                            <input class="form-control" type="text" placeholder="Username or Email">
+                            <div class="swg-gap-2"></div>
+
+                            <button class="swg-btn swg-btn-color-white link-effect-4 float-right">Get New Password</button>
+                        </form>
+                        <!-- END: Lost Password Form -->
+
+                        <!-- START: Register Form -->
+                        <form class="swg-sign-form-register" action="#">
+                            <input class="form-control" type="text" placeholder="Username">
+                            <div class="swg-gap-2"></div>
+
+                            <input class="form-control" type="email" placeholder="Email">
+                            <div class="swg-gap-2"></div>
+
+                            <div class="float-left">A password will be emailed to you.</div>
+                            <button class="swg-btn swg-btn-color-white link-effect-4 float-right">Register</button>
+                        </form>
+                        <!-- END: Register Form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swg-gap-5"></div>
+    </div>
+
+    <!-- Object Fit Polyfill -->
+<script src="https://swglegends.com/assets/vendor/object-fit-images/dist/ofi.min.js"></script>
+
+<!-- GSAP -->
+<script src="https://swglegends.com/assets/vendor/gsap/src/minified/TweenMax.min.js"></script>
+<script src="https://swglegends.com/assets/vendor/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
+
+<!-- Popper -->
+<script src="https://swglegends.com/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="https://swglegends.com/assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Sticky Kit -->
+<script src="https://swglegends.com/assets/vendor/sticky-kit/dist/sticky-kit.min.js"></script>
+
+<!-- Jarallax -->
+<script src="https://swglegends.com/assets/vendor/jarallax/dist/jarallax.min.js"></script>
+<script src="https://swglegends.com/assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+
+<!-- imagesLoaded -->
+<script src="https://swglegends.com/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+<!-- Flickity -->
+<script src="https://swglegends.com/assets/vendor/flickity/dist/flickity.pkgd.min.js"></script>
+
+<!-- Isotope -->
+<script src="https://swglegends.com/assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
+
+<!-- Photoswipe -->
+<script src="https://swglegends.com/assets/vendor/photoswipe/dist/photoswipe.min.js"></script>
+<script src="https://swglegends.com/assets/vendor/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+
+<!-- Typed.js -->
+<script src="https://swglegends.com/assets/vendor/typed.js/lib/typed.min.js"></script>
+
+<!-- Jquery Validation -->
+<script src="https://swglegends.com/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+
+<!-- Jquery Countdown + Moment -->
+<script src="https://swglegends.com/assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+<script src="https://swglegends.com/assets/vendor/moment/min/moment.min.js"></script>
+<script src="https://swglegends.com/assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+
+<!-- Hammer.js -->
+<script src="https://swglegends.com/assets/vendor/hammerjs/hammer.min.js"></script>
+
+<!-- NanoSroller -->
+<script src="https://swglegends.com/assets/vendor/nanoscroller/bin/javascripts/jquery.nanoscroller.js"></script>
+
+<!-- SoundManager2 -->
+<script src="https://swglegends.com/assets/vendor/soundmanager2/script/soundmanager2-nodebug-jsmin.js"></script>
+
+<!-- DateTimePicker -->
+<script src="https://swglegends.com/assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+
+<!-- Revolution Slider -->
+<script src="https://swglegends.com/assets/vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="https://swglegends.com/assets/vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="https://swglegends.com/assets/vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="https://swglegends.com/assets/vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="https://swglegends.com/assets/vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+
+<!-- Keymaster -->
+<script src="https://swglegends.com/assets/vendor/keymaster/keymaster.js"></script>
+
+<!-- Summernote -->
+<script src="https://swglegends.com/assets/vendor/summernote/dist/summernote-bs4.min.js"></script>
+
+<script src="https://swglegends.com/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+<!-- SWG Legends -->
+<script src="https://swglegends.com/assets/js/functions.js"></script>
+<script src="https://swglegends.com/assets/js/getQuote.js"></script>
+<script src="https://swglegends.com/assets/js/social-sidebar.js"></script>
+<script src="https://swglegends.com/assets/js/legends-core.js"></script>
+<script src="https://swglegends.com/assets/js/init.js"></script>    <script src="assets/js/newsHome.js"></script>
+</body>
+
+</html>

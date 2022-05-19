@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h3> Error Page</h3>
+<h4>There was an error - {{e}}</h4>
+
+{% endblock %}<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    
+        <title>Home</title>
+    
+        <div id="navbar">
+            <a href="{{ url_for('my_view.home') }}">
+                <img src="images/icon/swg_levi_icon_mini.png"></a>
+            <a href="{{ url_for('my_view.home') }}">Home</a>
+            <!-- <a href="news.html">News</a> -->
+            <!-- <a href="forums.html">Forums</a> -->
+            <a href="{{ url_for('my_view.leviathan') }}">Leviathan</a>
+            <!-- <a href="community.html">Community</a> -->
+            <!-- <a href="support.html">Support</a> -->
+            <a href="{{ url_for('my_view.play_now') }}">Play Now</a>
+        </div>
+    </head>
+
+<body>
+
+    <div id = "to_top">
+        <a href="index.html">
+        <img src="images/to_top/to_top_button.png">
+        </a>
+    </div>
+
+</body>
+</html>

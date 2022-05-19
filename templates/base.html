@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+
+    <title>Home</title>
+
+    <div id="navbar">
+            <a href="{{ url_for('my_view.home') }}">
+                <img src="{{ url_for('static', filename = 'images/icon/swg_levi_icon_mini.png')}}"></a>
+            <a href="{{ url_for('my_view.home') }}">Home</a>
+        <!-- <a href="news.html">News</a> -->
+        <!-- <a href="forums.html">Forums</a> -->
+        <div class="dropdown">
+            <button class="dropbtn">Leviathan</button>
+            <div class="dropdown-content">
+                <a href="{{ url_for('my_view.info') }}">Info</a>
+                <a href="{{ url_for('my_view.classes') }}">Classes</a>
+                <a href="{{ url_for('my_view.races') }}">Races</a>
+                <a href="{{ url_for('my_view.planets') }}">Planets</a>
+            </div>
+        </div>
+        <!-- <a href="community.html">Community</a> -->
+        <!-- <a href="support.html">Support</a> -->
+            <a href="{{ url_for('my_view.play_now') }}">Play Now</a>
+            
+        
+    </div>
+</head>
+
+<a name="top"></a>
+
+<video id="background-video" autoplay loop muted poster="{{ url_for('static', filename = 'images/background/swg_timelapse_poster.png')}}">
+    <source src="{{ url_for('static', filename = 'videos/swg_timelapse_trim.mp4')}}" type="video/mp4">
+</video>
+
+
+
+<body>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    {% block content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {% endblock %}
+
+    <div class="sidebar">
+        <ul>
+
+            <li><a href="#">
+                <img src="{{ url_for('static', filename = 'images/buttons/facebook_icon.png')}}">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook</span></a>
+            </li>
+        
+            <li><a href="#">
+                <img src="{{ url_for('static', filename = 'images/buttons/twitter_icon.png')}}">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span></a>
+            </li>
+        
+            <li><a href="#">
+                <img src="{{ url_for('static', filename = 'images/buttons/reddit_icon.png')}}">
+                <i class="fab fa-reddit"></i>
+                <span>Reddit</span></a>
+            </li>
+        
+            <li><a href="#">
+                <img src="{{ url_for('static', filename = 'images/buttons/discord_icon.png')}}">
+                <i class="fab fa-discord"></i>
+                <span>Discord</span></a>
+            </li>
+        
+            <li><a href="https://www.youtube.com/channel/UC73qo1AQnYt_OkVrzEVTSJg">
+                <img src="{{ url_for('static', filename = 'images/buttons/youtube_icon.png')}}">
+                <i class="fab fa-youtube"></i>
+                <span>YouTube</span></a>
+            </li>
+        
+        </ul>
+    </div>
+
+    <div id = "to_top">
+        <a href="{{ url_for('my_view.home') }}">
+        <img src="{{ url_for('static', filename = 'images/buttons/to_top_button.png')}}">
+        </a>
+    </div>
+
+    <footer>
+        <a href="{{ url_for('my_view.home') }}">
+            <img src="{{ url_for('static', filename = 'images/icon/swg_levi_icon_mini.png')}}"></a>
+        
+        <a href="https://pegi.info/what-do-the-labels-mean"><img src="{{ url_for('static', filename = 'images/footer/PEGI_12.png')}}"></a>
+
+        <a href="https://www.esrb.org/ratings-guide/">
+            <img src="{{ url_for('static', filename = 'images/footer/ratingsymbol_t.png')}}"></a>
+        
+            <a href="index.html">
+                <img src="{{ url_for('static', filename = 'images/footer/violence-black-EN.png')}}"></a>
+        
+        <br><br><p>© SWG: Leviathan is a non-profit community project dedicated to the development of Star Wars Galaxies™.</p>
+    </footer>
+</body>
+</html>
