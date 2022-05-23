@@ -6,6 +6,10 @@ my_view = Blueprint('my_view', __name__)
 def home():
     return render_template("index.html")
 
+@my_view.route("/test")
+def test():
+    return render_template("test.html")
+
 @my_view.route("/leviathan")
 def leviathan():
     return render_template("leviathan.html")

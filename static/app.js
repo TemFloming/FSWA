@@ -1,8 +1,40 @@
-// function darkMode() {
-//     let element = document.body;
-//     let mainBox = document.getElementsByClassName("main-box");
-//     let mainText = document.getElementsByClassName("main-text");
-//     let state = localStorage.getItem("state");
+
+
+function stateCheck() {
+    let element = document.body;
+    let state = localStorage.getItem("state");
+    if (state==="ls-mode") {
+        element.className = "ls-mode"
+    } else if (state==="neutral-mode"){
+        element.className="neutral-mode"
+    } else if (state==="ds-mode"){
+        element.className="ds-mode"
+    }
+}
+
+function neutralMode() {
+    let element = document.body;
+    element.className = "neutral-mode"
+    localStorage.setItem("state","neutral-mode");
+    let state = localStorage.getItem("state");
+    console.log(state)
+}
+
+function dsMode() {
+    let element = document.body;
+    element.className="ds-mode";
+    localStorage.setItem("state","ds-mode");
+    let state = localStorage.getItem("state");
+    console.log(state)
+}
+
+function lsMode() {
+    let element = document.body;
+    element.className="ls-mode";
+    localStorage.setItem("state","ls-mode");
+    let state = localStorage.getItem("state");
+    console.log(state)
+}
 
 //     element.classList.toggle("dark-mode");
 
@@ -19,7 +51,7 @@
 // } else{
 //     localStorage.setItem("state", "light");
 // }
-// }
+
 
 // function darkCheck() {
 //     let element = document.body;

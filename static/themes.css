@@ -1,0 +1,491 @@
+
+/* --------------------------------------- */
+
+/* Light Side Mode */
+
+/* --------------------------------------- */
+
+.ls-mode #navbar{
+        background-color: #0E0E0E;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 999
+    }
+    
+    .ls-mode #navbar a{
+        color: #5076F7;
+        background-color: #00000000;
+        font-size: 36px;
+        text-decoration: none;
+        z-index: 999
+    }
+    
+    .ls-mode a{
+        color: #5076F7;
+        text-decoration: none;
+    }
+    
+    .ls-mode a:hover{
+        color: #5076F7;
+        text-shadow:0px 0px 50px #5076F7;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.3s ease-in;
+    } 
+
+        /* Dropdown Button */
+        .ls-mode .dropbtn {
+        cursor: pointer;
+        background-color: #0E0E0E; 
+        color: #5076F7;
+        /* padding: 16px; */
+        font-size: 36px;
+        border: none;
+        position: relative;
+        z-index: 999
+    }
+
+    .ls-mode .dropbtn:hover{
+        color: #5076F7;
+        text-shadow:0px 0px 50px #5076F7;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.3s ease-in;
+    } 
+
+    /* The container <div> - needed to position the dropdown content */
+    .ls-mode .dropdown {
+        position: relative;
+        display: inline-block;
+        z-index: 999
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .ls-mode .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 100%;
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+        z-index: 999
+    }
+
+    /* Links inside the dropdown */
+    .ls-mode .dropdown-content a {
+        text-decoration: none;
+        display: block;
+        z-index: 1;
+    }
+
+    /* Change color of dropdown links on hover */
+    .ls-mode .dropdown-content a:hover {
+        color: #5076F7;
+        text-shadow:0px 0px 50px #5076F7;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.3s ease-in;
+    }
+
+    /* Show the dropdown menu on hover */
+    .ls-mode .dropdown:hover .dropdown-content {
+        display: block;
+        padding-left: 6.5px;
+    }
+
+    .ls-mode body {
+        /* background-image: url('images/background/background.png'); */
+        /* background-color: #000000; */
+        color: #5076F7;
+        background-color: #5077f738;
+        margin: 0%;
+    }
+    
+    .ls-mode .content{
+        color: #5076F7;
+        width:100%;
+        padding:20px;
+        margin-top:20px;
+        margin-bottom:20px;
+        background-color: #0E0E0E;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ls-mode .content2{
+        color: #5076F7;
+        width:100%;
+        padding:100px;
+        margin-top:20px;
+        margin-bottom:20px;
+        background-color: #0E0E0E;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: space-evenly;
+    };
+
+    .ls-mode .content_t{
+        color: #5076F7;
+        width:100%;
+        padding:20px;
+        padding-left:20%;
+        padding-right:20%;
+        box-sizing: border-box;
+        background-color: #5077f738;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* --------------------------------------- */
+
+    .ls-mode .sidebar {
+    position: fixed;
+    top: 30%;
+    width: 170px;
+    margin-top: 50px;
+    transition: all 0.3s linear;
+    z-index: 4;
+    flex-direction: row;
+}
+
+.ls-mode .sidebar li{
+    height: 60px;
+    position:relative;
+    list-style: none;
+}
+
+.ls-mode .sidebar li a{
+    color: #5076F7;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 60px;
+    padding-left:25%;
+    transition: all .3s linear;
+}
+
+.ls-mode .sidebar li:nth-child(1) a{
+    background: #00000000;
+}
+.ls-mode .sidebar li:nth-child(2) a{
+    background: #00000000;
+}
+.ls-mode .sidebar li:nth-child(3) a{
+    background: #00000000;
+}
+.ls-mode .sidebar li:nth-child(4) a{
+    background: #00000000;
+}
+.ls-mode .sidebar li:nth-child(5) a{
+    background: #00000000;
+}
+.ls-mode .sidebar li:nth-child(6) a{
+    background: #00000000;
+}
+
+.ls-mode .sidebar li a i{
+    position:absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 27px;
+}
+
+.ls-mode .sidebar ul li a span{
+    display: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.ls-mode .sidebar li a:hover {
+    z-index:1;
+    width: 200px;
+    color: #5076F7;
+    text-shadow:0px 0px 50px #5076F7;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;;
+}
+
+.ls-mode ul li:hover a span{
+    padding-left: 30%;
+    display: block;
+}
+
+/* Add media queries for small screens (when the height of the 
+screen is less than 450px, add a smaller padding and font-size) */
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+/* --------------------------------------- */
+
+
+/* ------------------------------- */
+
+
+/* Dark Side Mode */
+
+
+/* ------------------------------- */
+
+.ds-mode #navbar{
+    background-color: #0E0E0E;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 999
+}
+
+.ds-mode #navbar a{
+    color: #FF0100;
+    background-color: #00000000;
+    font-size: 36px;
+    text-decoration: none;
+    z-index: 999
+}
+
+.ds-mode a{
+    color: #FF0100;
+    text-decoration: none;
+}
+
+.ds-mode a:hover{
+    color: #FF0100;
+    text-shadow:0px 0px 50px #FF0100;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;
+} 
+
+    /* Dropdown Button */
+    .ds-mode .dropbtn {
+    cursor: pointer;
+    background-color: #0E0E0E; 
+    color: #FF0100;
+    font-size: 36px;
+    border: none;
+    position: relative;
+    z-index: 999
+}
+
+.ds-mode .dropbtn:hover{
+    color: #FF0100;
+    text-shadow:0px 0px 50px #FF0100;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;
+} 
+
+/* The container <div> - needed to position the dropdown content */
+.ds-mode .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 999
+}
+
+/* Dropdown Content (Hidden by Default) */
+.ds-mode .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100%;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 999
+}
+
+/* Links inside the dropdown */
+.ds-mode .dropdown-content a {
+    /* color: black; */
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    z-index: 1;
+}
+
+/* Change color of dropdown links on hover */
+.ds-mode .dropdown-content a:hover {
+    color: #FF0100;
+    text-shadow:0px 0px 50px #FF0100;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+/* Show the dropdown menu on hover */
+.ds-mode .dropdown:hover .dropdown-content {
+    display: block;
+    padding-left: 6.5px;
+}
+
+.ds-mode body {
+    background-image: url('images/background/background.png');
+    /* background-color: #000000; */
+    color: #FF0100;
+    margin: 0%;
+}
+
+.ds-mode .content{
+    color: #FF0100;
+    width:100%;
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color: #0E0E0E;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.ds-mode .content2{
+    color: #FF0100;
+    width:100%;
+    padding:100px;
+    margin-top:20px;
+    margin-bottom:20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    background-color: #0E0E0E;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex;
+    display: block; */
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*align-items: center;
+    text-align: center; */
+};
+
+.ds-mode .content_t{
+    color: #FF0100;
+    width:100%;
+    padding:20px;
+    padding-left:20%;
+    padding-right:20%;
+    /* margin-top:20px;
+    margin-bottom:20px; */
+    box-sizing: border-box;
+    background-color: rgba(14, 14, 14, 0.38);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+    /* --------------------------------------- */
+
+    .ds-mode .sidebar {
+        position: fixed;
+        top: 30%;
+        width: 170px;
+        margin-top: 50px;
+        transition: all 0.3s linear;
+        z-index: 4;
+        flex-direction: row;
+    }
+    
+    .ds-mode .sidebar li{
+        height: 60px;
+        position:relative;
+        list-style: none;
+    }
+    
+    .ds-mode .sidebar li a{
+        color: #FF0100;
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 60px;
+        padding-left:25%;
+        transition: all .3s linear;
+    }
+    
+    .ds-mode .sidebar li:nth-child(1) a{
+        background: #00000000;
+    }
+    .ds-mode .sidebar li:nth-child(2) a{
+        background: #00000000;
+    }
+    .ds-mode .sidebar li:nth-child(3) a{
+        background: #00000000;
+    }
+    .ds-mode .sidebar li:nth-child(4) a{
+        background: #00000000;
+    }
+    .ds-mode .sidebar li:nth-child(5) a{
+        background: #00000000;
+    }
+    .ds-mode .sidebar li:nth-child(6) a{
+        background: #00000000;
+    }
+    
+    .ds-mode .sidebar li a i{
+        position:absolute;
+        top: 17px;
+        left: 20px;
+        font-size: 27px;
+    }
+    
+    .ds-mode .sidebar ul li a span{
+        display: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    
+    .ds-mode .sidebar li a:hover {
+        z-index:1;
+        width: 200px;
+        color: #FF0100;
+        text-shadow:0px 0px 50px #FF0100;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.3s ease-in;;
+    }
+    
+    .ds-mode ul li:hover a span{
+        padding-left: 30%;
+        display: block;
+    }
+    
+    /* Add media queries for small screens (when the height of the 
+    screen is less than 450px, add a smaller padding and font-size) */
+    
+    @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+    }
+    
+    /* --------------------------------------- */
+
+/* ------------------------------- */
